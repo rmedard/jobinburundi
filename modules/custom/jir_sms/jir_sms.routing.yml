@@ -1,0 +1,7 @@
+jir_sms.dailysms:
+    path: '/admin/config/jir/jir_sms'
+    defaults:
+        _title: 'JIR Sms Settings'
+        _form: '\Drupal\jir_sms\Form\JIRSmsSettingsForm'
+    requirements:
+        _access: 'TRUE'
